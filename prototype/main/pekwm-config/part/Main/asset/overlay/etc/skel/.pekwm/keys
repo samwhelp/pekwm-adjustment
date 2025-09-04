@@ -39,11 +39,17 @@ Global {
 ## Head: Launch App / Terminal
 ##
 
-	KeyPress = "Mod1 Return" { Actions = "Exec sakura -m" }
-	KeyPress = "Mod1 Shift a" { Actions = "Exec xfce4-terminal --drop-down" }
-	KeyPress = "Mod1 Shift t" { Actions = "Exec xterm" }
-	#KeyPress = "Mod1 Ctrl t" { Actions = "Exec urxvt" }
-	#Note: "Ctrl Mod1 T" is used 
+	KeyPress = "Mod1 Return" { Actions = "Exec sakura" }
+	KeyPress = "Mod1 Shift a" { Actions = "Exec sakura" }
+	KeyPress = "Mod1 Ctrl a" { Actions = "Exec xfce4-terminal" }
+	KeyPress = "Mod1 Shift t" { Actions = "Exec qterminal" }
+	KeyPress = "Mod1 Ctrl t" { Actions = "Exec lxterminal" }
+	KeyPress = "Mod1 Shift y" { Actions = "Exec xfce4-terminal --drop-down" }
+
+	##
+	## Note: "Ctrl Mod1 T" is used
+	##
+
 ##
 ## Tail: Launch App / Terminal
 ################################################################################
@@ -69,7 +75,7 @@ Global {
 	KeyPress = "Mod1 Shift f" { Actions = "Exec thunar" }
 	KeyPress = "Mod1 Shift g" { Actions = "Exec pcmanfm" }
 	KeyPress = "Mod1 Shift e" { Actions = "Exec mousepad" }
-	KeyPress = "Mod1 Shift b" { Actions = "Exec firefox" }
+	KeyPress = "Mod1 Shift b" { Actions = "Exec firefox --new-tab about:blank" }
 
 ##
 ## Tail: Launch App / Misc
