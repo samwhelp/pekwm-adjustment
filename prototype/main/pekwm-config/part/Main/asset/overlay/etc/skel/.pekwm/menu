@@ -5,10 +5,10 @@ INCLUDE = "vars"
 
 RootMenu = "Pekwm" {
 
-	Entry = "Terminal" { Actions = "Exec $TERM &" }
+	Entry = "File Manager" { Actions = "Exec thunar" }
 	Entry = "Text Editor" { Actions = "Exec mousepad" }
 	Entry = "Web Browser" { Actions = "Exec firefox" }
-	Entry = "File Manager" { Actions = "Exec thunar" }
+	Entry = "Terminal" { Actions = "Exec $TERM &" }
 
 	Entry = "Rofi Show Drun" { Actions = "Exec rofi -show drun -show-icons" }
 
